@@ -1,0 +1,15 @@
+name = "moe-counter-cf"
+type = "javascript"
+account_id = "e1aecf51b1ed15e6ddb9e66be80ab954"
+zone_id = "7467c50afe0d5fc65439cfe06fc20f47"
+workers_dev = false
+route = "count.irithys.com/*"
+compatibility_date = "2022-03-12"
+kv_namespaces = [
+  { binding = "KV", id = "69d6c02975b3467babd3883c8e07aa1d", preview_id = "<CF_PREVIEW_KV_ID>" },
+]
+
+[build]
+command = "npm run build"
+[build.upload]
+format = "service-worker"
