@@ -6,7 +6,7 @@ workers_dev = false
 route = "count.irithys.com/*"
 compatibility_date = "2022-03-12"
 kv_namespaces = [
-  { binding = "KV", id = "69d6c02975b3467babd3883c8e07aa1d", preview_id = "<CF_PREVIEW_KV_ID>" },
+  { binding = "KV", id = "69d6c02975b3467babd3883c8e07aa1d"},
 ]
 
 [build]

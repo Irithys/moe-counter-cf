@@ -1,7 +1,7 @@
 {
   "defaults": {
-    "theme": "gelbooru",
-    "length": 7,
+    "theme": "asoul",
+    "length": "auto",
     "render": "auto"
   },
   "api": {
@@ -13,7 +13,7 @@
   },
   "ids": {
     "dsrkafuu:demo": "Demo for GitHub & preview site.",
-    "dsrkafuu:home": "Personal blog & GitHub page.",
-    "dsrkafuu:tools": "For DSRTOOLs counter."
+    "home": "Personal blog & GitHub page.",
+    "tools": "For DSRTOOLs counter."
   }
 }
