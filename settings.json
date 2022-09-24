@@ -12,8 +12,8 @@
     "enabled": true
   },
   "ids": {
-    "dsrkafuu:demo": "Demo for GitHub & preview site.",
-    "home": "Personal blog & GitHub page.",
-    "tools": "For DSRTOOLs counter."
+    "count": "count.irithys.com",
+    "blog": "irithys.com",
+    "about": "about.irithys.com"
   }
 }
