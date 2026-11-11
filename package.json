@@ -1,26 +1,27 @@
 {
-  "private": true,
   "name": "moe-counter-cf",
-  "version": "2.4.2",
+  "version": "3.2.2",
+  "private": true,
   "description": "Fork of Moe Counter for fast global access powered by Cloudflare Workers.",
-  "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.net)",
   "license": "MIT",
-  "main": "./dist/worker.js",
+  "author": "DSRKafuU (https://dsrkafuu.net)",
+  "type": "module",
   "scripts": {
-    "lint": "eslint \"./src\" && prettier --write",
-    "build": "webpack",
-    "dev": "wrangler dev --host count.dsrkafuu.net",
-    "publish": "wrangler publish"
+    "build": "vite build",
+    "dev": "vite dev",
+    "deploy": "vite build && wrangler deploy"
   },
   "dependencies": {
-    "itty-router": "~2.6.1"
+    "hono": "^4.13.8"
   },
   "devDependencies": {
-    "@cloudflare/wrangler": "~1.19.12",
-    "clean-webpack-plugin": "~4.0.0",
-    "eslint": "~8.23.0",
-    "prettier": "~2.7.1",
-    "webpack": "~5.74.0",
-    "webpack-cli": "~4.10.0"
+    "@cloudflare/vite-plugin": "^1.58.0",
+    "@cloudflare/workers-types": "^5.20260924.1",
+    "@types/bun": "^1.4.2",
+    "oxfmt": "^0.70.0",
+    "oxlint": "^1.85.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.0",
+    "wrangler": "^4.137.0"
   }
 }
