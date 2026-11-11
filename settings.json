@@ -1,15 +1,9 @@
 {
   "defaults": {
-<<<<<<< HEAD
-    "theme": "asoul",
+    "theme": "camellia",
     "length": "auto",
-    "render": "auto"
-=======
-    "theme": "gelbooru",
-    "length": 7,
-    "render": "pixelated",
+    "render": "auto",
     "darkmode": "auto"
->>>>>>> upstream/master
   },
   "api": {
     "secret": "a84feff0-5fde-41d1-8812-c9dca3cc9e1a",
@@ -21,15 +15,9 @@
     "enabled": true
   },
   "ids": {
-<<<<<<< HEAD
     "count": "count.irithys.com",
     "blog": "irithys.com",
     "about": "about.irithys.com",
     "github": "github.com/Irithys"
-=======
-    "dsrkafuu:demo": "Demo for GitHub & preview site.",
-    "dsrkafuu:home": "Personal blog & GitHub page.",
-    "dsrkafuu:itasha": "For itasha page counter usage."
->>>>>>> upstream/master
   }
 }

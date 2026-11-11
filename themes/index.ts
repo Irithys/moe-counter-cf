@@ -9,6 +9,17 @@ import as_7 from './asoul/7.gif?inline';
 import as_8 from './asoul/8.gif?inline';
 import as_9 from './asoul/9.gif?inline';
 
+import ca_0 from './camellia/0.svg?inline';
+import ca_1 from './camellia/1.svg?inline';
+import ca_2 from './camellia/2.svg?inline';
+import ca_3 from './camellia/3.svg?inline';
+import ca_4 from './camellia/4.svg?inline';
+import ca_5 from './camellia/5.svg?inline';
+import ca_6 from './camellia/6.svg?inline';
+import ca_7 from './camellia/7.svg?inline';
+import ca_8 from './camellia/8.svg?inline';
+import ca_9 from './camellia/9.svg?inline';
+
 import gb_0 from './gelbooru/0.gif?inline';
 import gb_1 from './gelbooru/1.gif?inline';
 import gb_2 from './gelbooru/2.gif?inline';
@@ -80,6 +91,11 @@ export default {
     width: 45,
     height: 100,
     images: [as_0, as_1, as_2, as_3, as_4, as_5, as_6, as_7, as_8, as_9],
+  },
+  camellia: {
+    width: 57,
+    height: 100,
+    images: [ca_0, ca_1, ca_2, ca_3, ca_4, ca_5, ca_6, ca_7, ca_8, ca_9],
   },
   gelbooru: {
     width: 68,

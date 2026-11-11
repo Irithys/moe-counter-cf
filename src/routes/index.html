@@ -101,7 +101,7 @@
   <body>
     <header>
       <h1>irithys Count</h1>
-      <img src="/count?theme=gelbooru" alt="Demo Counter" />
+      <img src="/count?theme=camellia&amp;add=0" alt="Demo Counter" />
     </header>
     <main>
 
@@ -128,14 +128,15 @@
           <td><code>id</code></td>
           <td>Locked in demo, deploy your own to change</td>
           <td>
-            <input id="id" type="text" value="dsrkafuu:demo" readonly />
+            <input id="id" type="text" value="count" readonly />
           </td>
         </tr>
         <tr>
           <td><code>theme</code></td>
-          <td>Counter theme, default is <code>gelbooru</code></td>
+          <td>Counter theme, default is <code>camellia</code></td>
           <td>
             <select id="themes">
+              <option value="camellia">camellia</option>
               <option value="gelbooru">gelbooru</option>
               <option value="green">green</option>
               <option value="moebooru">moebooru</option>
@@ -184,8 +185,8 @@
       (function () {
         var img = document.querySelector('img');
         var btn = document.getElementById('theme');
-        var themes = ['asoul', 'gelbooru', 'moebooru', 'rule34'];
-        var idx = 1;
+        var themes = ['camellia', 'asoul', 'gelbooru', 'moebooru', 'rule34'];
+        var idx = 0;
         btn.addEventListener('click', function () {
           var next = themes[++idx];
           if (!themes[idx]) {
