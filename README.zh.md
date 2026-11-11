@@ -14,6 +14,12 @@
 
 [![Gelbooru](https://count.dsrkafuu.net/dsrkafuu:demo)](https://count.dsrkafuu.net/dsrkafuu:demo)
 
+**Camellia（`theme=camellia`，本分支默认主题）**
+
+[![Camellia](https://count.irithys.com/blog?theme=camellia&length=auto&add=0)](https://count.irithys.com/blog?theme=camellia&length=auto&add=0)
+
+衬线数字轮廓转成的矢量路径，山茶红 `#a83a46`，单字形 57×100，随页面缩放不失真；适合浅色纸张背景的站点。
+
 <details>
 <summary>更多主题和自定义选项</summary>
 
